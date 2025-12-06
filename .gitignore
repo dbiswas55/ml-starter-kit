@@ -20,6 +20,10 @@ venv*/
 *.pkl
 *.h5
 data/raw/*
+!data/raw/.gitkeep
 data/processed/*
+!data/processed/.gitkeep
 experiments/*
+!experiments/.gitkeep
 results/*
+!results/.gitkeep

@@ -26,12 +26,31 @@ Machine Learning starter kit with proper Python package structure.
 
 ```
 ml-starter-kit/
-├── src/              # Main source code (installed as package)
+├── .vscode/
+│   └── settings.json           # VS Code workspace settings
+├── src/                        # Main source code (installed as package)
 │   ├── dataset/
+│   │   └── check_dataset_imports.py
 │   ├── models/
-│   └── utils/
-├── tests/            # Test files
-├── data/             # Raw and processed data
-├── configs/          # Configuration files
-└── pyproject.toml    # Package configuration
+│   │   └── check_model_imports.py
+│   ├── utils/
+│   │   ├── common.py
+│   │   └── io.py
+│   └── main.py
+├── tests/
+│   └── check_imports.py        # Import verification tests
+├── data/
+│   ├── raw/                    # Raw data files
+│   │   └── .gitkeep
+│   └── processed/              # Processed data files
+│       └── .gitkeep
+├── configs/
+│   └── config.yaml             # Configuration files
+├── experiments/                # Experiment outputs
+│   └── .gitkeep
+├── results/                    # Overall results
+│   └── .gitkeep
+├── .gitignore
+├── pyproject.toml              # Package configuration
+└── README.md
 ```
