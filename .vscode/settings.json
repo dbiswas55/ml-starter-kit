@@ -1,0 +1,21 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/*.pyo": true,
+    "**/*.egg-info": true,
+    "**/venv*/": true,
+    "**/.pytest_cache": true
+  },
+  "search.exclude": {
+    "**/venv*/": true,
+    "**/__pycache__": true,
+    "**/*.egg-info": true
+  },
+  "files.watcherExclude": {
+    "**/venv*/**": true,
+    "**/__pycache__/**": true,
+    "**/*.egg-info/**": true
+  }
+}

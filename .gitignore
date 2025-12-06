@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+._*
+
+# System
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv*/
+*.egg-info/
+
+# IDE
+.idea/
+
+# ML/Data
+*.pkl
+*.h5
+data/raw/*
+data/processed/*
+experiments/*
+results/*
